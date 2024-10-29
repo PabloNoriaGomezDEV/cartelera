@@ -1,0 +1,86 @@
+
+{
+        "documentaries": [
+        {
+            "id": "1",
+            "tittle": "Iron Man",
+            "poster":"images/ironman.jpg",
+            "year": 2008,
+            "duration": "1h 25m",
+            "synopsys":"Tony Stark, un millonario e ingeniero, se convierte en el superhéroe Iron Man tras construir una poderosa armadura para escapar de sus captores.",
+            "director": "Jon Favreau"
+        },
+        {
+            "id": "2",
+            "tittle": "Thor",
+            "poster":"images/thor.jpg",
+            "year": 2011,
+            "duration": "1h 25m",
+            "synopsys": "Thor, un príncipe asgardiano, es desterrado a la Tierra por su padre Odin para aprender humildad, donde se convierte en un protector de la humanidad.",
+            "director": "Kenneth Branagh"
+        },
+        {
+            "id": "3",
+            "tittle": "Captain America: The First Avenger",
+            "poster":"images/capitanamerica.jpg",
+            "year": 2011,
+            "duration": "1h 25m",
+            "synopsys": "Durante la Segunda Guerra Mundial, el soldado Steve Rogers se convierte en el Capitán América tras ser sometido a un experimento para crear un super soldado.",
+            "director": "Joe Johnston"
+        },
+        {
+            "id": "4",
+            "tittle": "The Avengers",
+            "poster":"images/vengadores.jpg",
+            "year": 2012,
+            "duration": "1h 25m",
+            "synopsys": "Los héroes más poderosos de la Tierra deben unirse para enfrentar la amenaza de Loki y su ejército invasor en Nueva York.",
+            "director": "Joss Whedon"
+        },
+        {
+            "id": "5",
+            "tittle": "Guardians of the Galaxy",
+            "poster": "images/guardianes.jpg",
+            "year": 2014,
+            "duration": "1h 25m",
+            "synopsys": "Un grupo de inadaptados espaciales se une para proteger una poderosa gema de caer en manos equivocadas, formando los Guardianes de la Galaxia.",
+            "director": "James Gunn"
+        },
+        {
+            "id": "6",
+            "tittle": "Black Panther",
+            "poster":"images/blackpanther.jpg",
+            "year": 2018,
+            "duration": "1h 25m",
+            "synopsys": "T'Challa, el rey de Wakanda, debe defender su nación y su título como Pantera Negra contra un retador con un plan radical.",
+            "director": "Ryan Coogler"
+        },
+        {
+            "id": "7",
+            "tittle": "Avengers: Infinity War",
+            "poster":"images/infinitywar.jpg",
+            "year": 2018,
+            "duration": "1h 25m",
+            "synopsys": "Los Vengadores y sus aliados luchan por detener a Thanos, quien busca reunir las Gemas del Infinito y eliminar a la mitad del universo.",
+            "director": "Anthony Russo, Joe Russo"
+        },
+        {
+            "id": "8",
+            "tittle": "Spider-Man: No Way Home",
+            "poster":"images/spidermannowayhome.jpg",
+            "year": 2021,
+            "duration": "1h 25m",
+            "synopsys": "Peter Parker recurre a Doctor Strange para restaurar su identidad secreta, pero el hechizo sale mal y abre portales al multiverso.",
+            "director": "Jon Watts"
+        },
+        {
+            "id": "9",
+            "tittle": "Doctor Strange in the Multiverse of Madness",
+            "poster":"images/doctorStrange.jpg",
+            "year": 2022,
+            "duration": "1h 25m",
+            "synopsys": "Doctor Strange explora el multiverso para proteger a America Chavez y detener la amenaza de Wanda, quien busca recuperar a sus hijos.",
+            "director": "Sam Raimi"
+        }
+    ]
+}
