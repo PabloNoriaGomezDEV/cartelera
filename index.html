@@ -10,24 +10,67 @@
         <title>Cartelera</title>
 
         <style>
+            body {
+                background-color: rgb(2, 48, 1);
+                background-image: linear-gradient(to bottom, #1c1233, #372990);
+                color: white;
+                min-height: 100vh;
+            }
+        
+            .mainHeader {
+                background-color: transparent;
+            }
+        
+            .mainFooter {
+                background-color: rgba(36, 36, 36, 0.9);
+            }
+        
+            .cardDocumentaries {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+        
             .cardDocumentaries .card {
-            width: 12rem;
-            height: auto;
-            margin: 1rem;
-            padding: 0;
-            border: none;
-            position: relative;
-            overflow: hidden;
-            transition: transform 0.3s ease;
-        }
-
+                width: 12rem;
+                margin: 1rem;
+                overflow: hidden;
+                position: relative;
+                transition: transform 0.3s ease;
+                background-color: #eeeeee;
+            }
+        
             .cardDocumentaries .card img {
-            width: 100%;
-            height: 400px;
-            object-fit: cover;
-            display: block;
-        }
-
+                width: 100%;
+                height: 25rem;
+                object-fit: fill;
+            }
+        
+            .cardDocumentaries .card:hover {
+                transform: scale(1.05); 
+            }
+        
+            .light-animation {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background: rgb(183, 176, 176); 
+                animation: lightEffect 2s infinite; 
+                z-index: 9999;
+            }
+        
+            @keyframes lightEffect {
+                0% {
+                    opacity: 1;
+                    transform: translateY(0);
+                }
+                100% {
+                    opacity: 0;
+                    transform: translateY(0);
+                }
+            }
         </style>
 
     </head>
@@ -49,14 +92,22 @@
             </div>
         </main>
 
-        <footer class="mainFooter bg-black p-4 mt-4 w-100">
-            <div class="container d-flex justify-content-between align-items-center">
-                <p class="footerInfo mb-0 text-white">&copy; Copyright 2024</p>
-                <div class="socialMedia">
+        <footer class="mainFooter p-4 mt-4 w-100">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+                <p class="footerInfo mb-3 mb-md-0 text-white">&copy; Copyright 2024 Todos los derechos reservados.</p>
+                
+                <div class="socialMedia mb-3 mb-md-0">
                     <a href="#" class="text-white me-3" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
                     <a href="#" class="text-white me-3" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                    <a href="#" class="text-white" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white me-3" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="text-white" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
                 </div>
+        
+                <ul class="footerLinks list-unstyled d-flex mb-0">
+                    <li><a href="#" class="text-white me-3">Política de Privacidad</a></li>
+                    <li><a href="#" class="text-white me-3">Términos de Servicio</a></li>
+                    <li><a href="#" class="text-white">Contacto</a></li>
+                </ul>
             </div>
         </footer>
 
